@@ -1,0 +1,32 @@
+.word {
+       
+        float: left;
+        height: 50px;
+        width: 140px;
+        padding-top: 12px;
+        margin-left: 20px;
+}
+.boo {
+        border-style: none;
+        background-color:hsla(132, 87%, 48%, 0.3);
+        border-radius: 0.5em;
+        height:35px;
+        width: 50px;
+        margin-top:8px;
+        margin-right: 5px;
+        float:right;
+}
+.boo:hover{
+        /* border: 1px solid #409eff; */
+        border-radius: 0.5em;
+        background: hsla(117, 87%, 36%, 0.3);
+        -webkit-transition: all .5s;
+        transition: all .5s;
+}
+.mark {
+        float: left;
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+        margin-left: 5px;
+}

@@ -1,0 +1,9 @@
+.text {
+        background: var(--p-color-bg-success-subdued);
+        height: 135px;
+        width:625px ;
+        border-radius: 0.5em;
+        outline:none ;
+        resize: none;
+        border-style: none;
+}

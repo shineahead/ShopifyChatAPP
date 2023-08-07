@@ -1,0 +1,57 @@
+.btn2 {
+        border-style: none;
+        background:hsla(149, 54%, 50%, 0.865);
+        float: right;
+        margin-top: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+        height: 35px;
+        width: 35px;
+        border-radius: 0.5em;
+        position: relative;
+}
+.tip1{
+        position: absolute;
+        right:30%;
+        top:100%;
+        display: none;
+        width: 50px;
+        height: 20px;
+        background:--p-color-bg-input;
+        font-size:medium;
+        border: none;
+}
+.tip2{
+        position: absolute;
+        top:100%;
+        right: 1%;
+        display: none;
+        margin-top: 0px;
+        width: 100px;
+        height: 150px;
+        background:--p-color-bg-input;
+        font-size:medium;
+        border: none;
+        border-style: none;
+}
+.btn2:hover .tip1{
+        /* border: 1px solid #409eff; */
+        border-radius: 0.5em;
+        background: hsla(173, 77%, 50%, 0.865);
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        display: block;
+}
+.btn2:hover .tip2{
+        /* border: 1px solid #409eff; */
+        border-radius: 0.5em;
+        background: hsla(149, 54%, 50%, 0.865);
+        -webkit-transition: all .5s;
+        transition: all .5s;
+        display: block;
+}
+.op {
+        width: 100px;
+        height: 30px;
+        border-radius: 0.3em; 
+}

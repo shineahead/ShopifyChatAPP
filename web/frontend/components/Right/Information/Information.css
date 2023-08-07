@@ -1,0 +1,15 @@
+.tip{
+      font-size:small;
+     font-family:'Courier New', Courier, monospace;
+      font-weight: 700;
+      padding-top: 10px;
+}
+.btn1{
+        margin:5px 5px;
+        height:30px;
+        width:30px;
+        position: relative;
+        border-style: none;
+        background: var(--p-color-bg-primary-subdued-active);
+        
+}
