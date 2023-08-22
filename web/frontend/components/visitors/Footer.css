@@ -1,0 +1,21 @@
+.btnPage {
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 3px 10px;
+    font-size: 18px;
+    background-color: rgb(244, 244, 245);
+}
+
+.btnOmit {
+    border: none;
+    border-radius: 2px;
+    margin: 0 5px;
+    padding: 3px 10px;
+    font-size: 18px;
+    background-color: rgb(244, 244, 245);
+}
+
+.btnPage:hover {
+    background-color: rgb(228, 228, 228);
+}

@@ -17,7 +17,9 @@ export function VisitorsTitle({ }) {
     return (
         <div height="300px" style={{
             background: 'rgb(221, 242, 251)',
+            // background: 'rgb(220, 220, 230)',
             padding: "15px",
+            fontFamily: "Trebuchet MS, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif"
         }}>
             <Text as="span" variant="heading2xl">
                 Visitors on your site at the moment</Text>
@@ -39,9 +41,9 @@ export function VisitorsTitle({ }) {
                     total numbers:</Text>
                 <span style={{
                     fontSize: "25px",
-                    fontFamily: "Microsoft Yahei",
+                    fontFamily: "Lovelace",
                     color: "green"
-                }}>15</span>
+                }}>255</span>
             </div>
         </div>
     )

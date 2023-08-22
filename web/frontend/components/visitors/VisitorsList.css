@@ -1,0 +1,26 @@
+.btnStartChat {
+    display: block;
+    position: relative;
+    height: 45px;
+    width: 120px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: consolas;
+    color: blue;
+    background-color: white;
+}
+
+.btnStartChat:hover {
+    background-color: greenyellow
+}
+
+.divList {
+    padding: 32px;
+    position: relative;
+    background: white;
+}
+
+.divList:hover {
+    background: rgb(239, 250, 251)
+}
