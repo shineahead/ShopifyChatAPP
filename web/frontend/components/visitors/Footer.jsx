@@ -13,18 +13,19 @@ export function Footer() {
                 width: "fit-content",
             }}>
                 <button className="btnPage">上一页</button>
+                <button className="btnPage">1</button>
+                <button className="btnOmit">...</button>
+                <button className="btnPage">38</button>
+                <button className="btnPage">39</button>
                 <button className="btnPage" style={{
                     backgroundColor: "rgb(79, 176, 82)",
                     fontWeight: "normal",
                     color: "white"
-                }}>1</button>
-                <button className="btnPage">2</button>
-                <button className="btnPage">3</button>
-                <button className="btnPage">4</button>
-                <button className="btnPage">5</button>
-                <button className="btnPage">6</button>
+                }}>40</button>
+                <button className="btnPage">41</button>
+                <button className="btnPage">42</button>
                 <button className="btnOmit">...</button>
-                <button className="btnPage">11</button>
+                <button className="btnPage">103</button>
                 <button className="btnPage">下一页</button>
             </div>
         </div>

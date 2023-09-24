@@ -32,6 +32,10 @@ export default function VisitorsInfo() {
                 <VisitorsList name="shine" position="American" clientId="91543" online={true} />
                 <VisitorsList name="木謹" position="France" clientId="13026" newMessage={true} online={false} />
                 <VisitorsList name="Sinsoledad" position="India" clientId="15556" online={true} />
+                <VisitorsList name="shineahead" position="China" clientId="21626" newMessage={true} online={false} />
+                <VisitorsList name="shine" position="American" clientId="91543" online={true} />
+                <VisitorsList name="木謹" position="France" clientId="13026" newMessage={true} online={false} />
+                <VisitorsList name="Sinsoledad" position="India" clientId="15556" online={true} />
                 <Footer />
             </div>
         </div >

@@ -4,7 +4,8 @@ import {
     Icon
 } from "@shopify/polaris";
 import {
-    MobileBackArrowMajor
+    MobileBackArrowMajor,
+    ReplayMinor
 } from '@shopify/polaris-icons';
 
 //游客TitleBar界面
@@ -12,6 +13,11 @@ export function VisitorsTitle({ }) {
     //返回图标
     const icon_return = <Icon
         source={MobileBackArrowMajor}
+        color="base"
+    />
+    //刷新图标
+    const icon_fresh = <Icon
+        source={ReplayMinor}
         color="base"
     />
     return (
@@ -30,6 +36,17 @@ export function VisitorsTitle({ }) {
             }}>
                 <Button
                     icon={icon_return}
+                    background="bg-strong-hover"
+                    plain>
+                </Button>
+            </div>
+            <div style={{
+                display: "inline",
+                float: "right",
+                margin: "5px 20px 5px 0px"
+            }}>
+                <Button
+                    icon={icon_fresh}
                     background="bg-strong-hover"
                     plain>
                 </Button>

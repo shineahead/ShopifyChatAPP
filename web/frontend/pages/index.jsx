@@ -13,6 +13,8 @@ export default function HomePage() {
     This function modifies the top-level browser URL so that you can
     navigate within the embedded app and keep the browser in sync on reload.
   */
+  //相当于是调用函数，navigate是useNavigate函数的返回值
+  //navigate是一个接口
   const navigate = useNavigate();
 
   /*
@@ -39,7 +41,7 @@ export default function HomePage() {
           /* This button will take the user to a Create a QR code page */
           action={{
             content: "Create QR code",
-            onAction: () => navigate("/VisitorsInfo"),
+            onAction: () => navigate("/VisitorsInfo?id=1"),
           }}
           image="https://cdn.shopify.com/s/files/1/0262/4071/2726/files/emptystate-files.png"
         >
@@ -60,7 +62,7 @@ export default function HomePage() {
         title="QR codes"
         primaryAction={{
           content: "Create QR code",
-          onAction: () => navigate("/VisitorsInfo"),
+          onAction: () => navigate("/VisitorsInfo?id=1"),
         }}
       />
       <Layout>
