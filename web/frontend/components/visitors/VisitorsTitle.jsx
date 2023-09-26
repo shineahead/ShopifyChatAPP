@@ -7,6 +7,7 @@ import {
     MobileBackArrowMajor,
     ReplayMinor
 } from '@shopify/polaris-icons';
+import { useNavigate } from "@shopify/app-bridge-react";
 
 //游客TitleBar界面
 export function VisitorsTitle({ }) {
@@ -20,6 +21,8 @@ export function VisitorsTitle({ }) {
         source={ReplayMinor}
         color="base"
     />
+    //用来跳转的组件
+    const navigate = useNavigate()
     return (
         <div height="300px" style={{
             background: 'rgb(221, 242, 251)',
@@ -37,7 +40,12 @@ export function VisitorsTitle({ }) {
                 <Button
                     icon={icon_return}
                     background="bg-strong-hover"
-                    plain>
+                    plain
+                    //返回主界面
+                    onClick={
+                        () => navigate("/")
+                    }
+                >
                 </Button>
             </div>
             <div style={{

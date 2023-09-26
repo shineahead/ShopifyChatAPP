@@ -105,7 +105,7 @@ export function VisitorsList({ name = "", position = "", clientId = "",
                 }}>
                     <button className="btnStartChat" onClick={
                         //跳转不同的页面
-                        () => navigate("/test")
+                        () => navigate("/test?id=1")
                     }>
                         {/* 是否有新消息 */}
                         {newMessage ?

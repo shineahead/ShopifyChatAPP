@@ -7,6 +7,17 @@
     background-color: rgb(244, 244, 245);
 }
 
+.btnChoose {
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    padding: 3px 10px;
+    font-size: 18px;
+    background-color: rgb(79, 176, 82);
+    font-weight: normal;
+    color: white
+}
+
 .btnOmit {
     border: none;
     border-radius: 2px;
